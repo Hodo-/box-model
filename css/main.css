@@ -85,7 +85,6 @@ nav ul {
 
 nav li {
 	display: inline-block;
-
 }
 
 nav a {
@@ -118,11 +117,7 @@ ul {
 
 ol {
 	list-style-type: lower-roman;
-	padding: 1;
-}
-
-li {
-	fontweight: bold;
+	padding: 0em 0em 1em 2em;
 }
 
 blockquote {
