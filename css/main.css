@@ -1,0 +1,224 @@
+/*body {
+margin: 0;
+}
+
+h1 {
+	background-color: red;
+	padding: 1em 2em 0.5em 3em;
+	margin: 0;
+	border: 5px dotted #000;
+	border-radius: 10px;
+}
+
+a {
+	background-color: orange;
+	display: block;
+}
+
+nav {
+	background-color: hotpink;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	padding: 0.5 0.75;
+	background-color: magenta;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+	width: 5em;
+} */
+
+html {
+	background-color: #e1e0dd;
+	/*
+		Black #000000 #000
+		White #ffffff #fff
+		Grey #333333 #cccccc
+		Red #ff0000 #f00
+		Green #00ff00 #0f0
+	*/
+}
+
+body {
+line-height: 140%
+}
+
+header {
+	background-color: #84817d;
+	padding: 0.5em 0.5em 1em 0.5em;
+	text-align: center;
+}
+
+h1 {
+	background-color: #84817d;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	margin: 0;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	font-weight: normal; /* normal, bold */
+	font-size: 2rem;
+	font-style: normal; /* normal, italic */
+	/* text-decoration: underline; */ /* underline, line-through */
+	/* font-family: "Comic Sans MS", sans-serif; */
+	font-family: 'Changa One', cursive;
+	line-height: 1;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+
+}
+
+nav a {
+	display: inline-block;
+	padding: 0.5em 0.75em;
+	background-color: #3f2424;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+h2 {
+	color: #84817d;
+	font-weight: normal; /* normal, bold */
+	font-size: 1.5rem;
+	font-style: normal; /* normal, italic */
+	/* text-decoration: underline; */ /* underline, line-through */
+	/* font-family: "Comic Sans MS", sans-serif; */
+	font-family: 'Changa One', cursive;
+	line-height: 1;
+	padding: 1em 1em 0.5em 0em;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none; /* lower-roman, lower-alpha, circle, decimal, square, disc */
+	padding: 0;
+}
+
+ol {
+	list-style-type: lower-roman;
+	padding: 1;
+}
+
+li {
+	fontweight: bold;
+}
+
+blockquote {
+	font-style: italic;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: normal;
+	line-height: 1;
+}
+
+span {
+	color: #84817e;
+	font-size: 2rem;
+}
+
+.grey {
+	color: #86847f;
+}
+
+.neil {
+	color: #86847f;
+	text-align: right;
+	font-size: 1rem;
+	font-style: italic;
+}
+
+.semi {
+	font-weight: bold;
+}
+
+.wiki {
+	list-style-type: circle;
+padding: 0em 1em 0em 1em;
+border-radius: 5px;
+background-color: #84817d
+}
+
+footer {
+	background-color: #84817d;
+	padding: 0.5em 1em 0.5em 0.5em;
+	text-align: left;
+	margin: 0;
+}
+
+.sources {
+	color: white;
+	font-weight: normal; /* normal, bold */
+	font-size: 1.5rem;
+	font-style: normal; /* normal, italic */
+	/* text-decoration: underline; */ /* underline, line-through */
+	/* font-family: "Comic Sans MS", sans-serif; */
+	font-family: 'Changa One', cursive;
+	line-height: 1;
+	padding: 0;
+	margin: 0;
+}
+
+figcaption {
+	font-size: 1rem;
+	font-style: italic;
+}
+
+/* .stego {
+	color: red;
+and in html, li with class="stego" } */
+
+a {
+	color: #3f2424;
+}
+
+a:hover {
+	color: #ea2a2a;
+}
+
+figcaption {
+	text-align: center;
+}
+
+figure {
+	text-align: center;
+	padding: 1em 1em 1em 1em;
+	border: 5px solid white;
+	border-radius: 24px;
+	margin: 0;
+}
+
+dt {
+	padding: 1em 0em 0em 0em;
+}
+
+dd {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
