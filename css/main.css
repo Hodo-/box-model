@@ -199,7 +199,9 @@ figcaption {
 figure {
 	text-align: center;
 	padding: 1em 1em 1em 1em;
-	border: 5px solid white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #86847f;
 	border-radius: 24px;
 	margin: 0;
 }
